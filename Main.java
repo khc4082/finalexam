@@ -7,7 +7,7 @@ public class Main {
             // 000000
             // 010000
 
-            SimulatedAnnealing sa = new SimulatedAnnealing(1, 0.95, 100);
+            SimulatedAnnealing sa = new SimulatedAnnealing(1, 0.97, 100);
             sa.solve(new Problem() {
                 @Override
                 public double fit(double x) {
