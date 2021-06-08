@@ -10,7 +10,12 @@
   
  * 모델을 어떤 걸 설정 할까 고민하다가 편의점 알바를 하면서 택배 상자의 무게에 따른 택배비를 기반으로 하였습니다. 
   
-  ![image](https://user-images.githubusercontent.com/80371590/121253425-0d874680-c8e4-11eb-9616-c001de4773de.png)
+  ![image](https://user-images.githubusercontent.com/80371590/121253425-0d874680-c8e4-11eb-9616-c001de4773de.png)  
+  
+  ### 그래프 표현
+  ---
+  ![image](https://user-images.githubusercontent.com/80371590/121256242-4e348f00-c8e7-11eb-8371-a7d2b601f401.png)
+
 
   
   
