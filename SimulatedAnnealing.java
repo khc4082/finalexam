@@ -19,7 +19,7 @@ public class SimulatedAnnealing {
     public double solve(Problem p, double lower, double upper) {
         Random r = new Random();
         double x0 = r.nextDouble() * (upper - lower) + lower;    // 초기후보해
-        double f0 = p.fit(x0);                                   // 초기후보해의 적합도
+        double f0 = p.fit(x0);                                   
         hist.add(f0);
 
         for(int i=0; i<niter; i++) {    // REPEAT
@@ -27,11 +27,11 @@ public class SimulatedAnnealing {
             for(int j=0; j<kt; j++) {
                 double x1 = r.nextDouble() * (upper - lower) + lower;    // 이웃해
                 double f1 = p.fit(x1);
-                if(p.isNeighborBetter(f0, f1)) {    // 이웃해가 더 나음
+                if(p.isNeighborBetter(f0, f1)) {    
                     x0 = x1;
                     f0 = f1;
                     hist.add(f0);
-                } else {    // 기존해가 더 나음
+                } else {    
                     double d = f1 - f0;
                     double p0 = Math.exp(-d/t);
                     if(r.nextDouble() < p0) {
