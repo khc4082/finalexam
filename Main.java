@@ -11,7 +11,7 @@ public class Main {
             sa.solve(new Problem() {
                 @Override
                 public double fit(double x) {
-                    return x*x*x; // or x*x*x*x // 함수 대입
+                    return x*x*x; // or x*x*x*x...etc 원하는 함수 대입
                 }
 
                 @Override
