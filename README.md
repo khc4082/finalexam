@@ -16,6 +16,9 @@
   ---
   
   ![image](https://user-images.githubusercontent.com/80371590/121256467-8cca4980-c8e7-11eb-90f3-5fd84594663b.png)
+  
+  * 가로축은 택배 무게이고, 세로축은 비용이다.
+  * 회귀식은 y = 150x+1500 이다.
 
 
 
