@@ -15,7 +15,8 @@
 ### 그래프 표현
   ---
   
-  ![image](https://user-images.githubusercontent.com/80371590/121256242-4e348f00-c8e7-11eb-8371-a7d2b601f401.png)
+  ![image](https://user-images.githubusercontent.com/80371590/121256467-8cca4980-c8e7-11eb-90f3-5fd84594663b.png)
+
 
 
   
