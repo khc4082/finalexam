@@ -3,7 +3,7 @@ package com.hyeonseong;
 public class Main {
 
     public static void main(String[] args) {
-     
+
             // 000000
             // 010000
 
@@ -11,16 +11,18 @@ public class Main {
             sa.solve(new Problem() {
                 @Override
                 public double fit(double x) {
-                    return 0.16*x*x*x*x -x*x + 0.37*x + 5;
+                    return x*x*x; // or x*x*x*x // 함수 대입
                 }
 
                 @Override
                 public boolean isNeighborBetter(double f0, double f1) {
                     return f1 > f0;
                 }
-            }, 0, 31);
+            }, 1, 10);  // x값 범위 설정
 
             System.out.println(sa.hist);
-            // x=19, f(x)=441
+
         }
     }
+
+
