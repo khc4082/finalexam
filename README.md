@@ -18,7 +18,15 @@
   ![image](https://user-images.githubusercontent.com/80371590/121256467-8cca4980-c8e7-11eb-90f3-5fd84594663b.png)
   
   * 가로축은 택배 무게이고, 세로축은 비용이다.
-  * 회귀식은 y = 150x+1500 이다.
+  * 회귀식은 y = 150x+1500 이다.  
+    
+### Parameter Estimation 결과
+  
+![image](https://user-images.githubusercontent.com/80371590/121259342-f3049b80-c8ea-11eb-900f-5602732697fa.png)
+  
+![image](https://user-images.githubusercontent.com/80371590/121259458-1b8c9580-c8eb-11eb-834e-1e905658e01b.png)
+  
+  * Simulated Annealing을 이용한 값들 중에 y=150x+1500 , a= 150 b = 1500 값에 거의 유사하다.
 
 
 
